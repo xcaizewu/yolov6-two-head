@@ -1,0 +1,13 @@
+# Please insure that your custom_dataset are put in same parent dir with YOLOv6_DIR
+train_head1: /home/user/caizewu/project/中车/中车数据/高铁项目/训练数据/data/images/train/ # train images
+val_head1: /home/user/caizewu/project/中车/中车数据/高铁项目/训练数据/data/images/val # val images
+test_head1: /home/user/caizewu/project/中车/中车数据/高铁项目/训练数据/data/images/test # test images (optional)
+
+train_head2: /home/user/8T/caizewu/data/falldowm-23-08-31/data/images/train/ # train images
+val_head2: /home/user/8T/caizewu/data/falldowm-23-08-31/data/images/val # val images
+test_head2: /home/user/8T/caizewu/data/falldowm-23-08-31/data/images/test # test images (optional)
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+# Classes
+nc: 20  # number of classes
+names: ['proper', 'twhead', 'nomask', 'cleye', 'opeye', 'broadcast', 'head', 'mask', 'handpose', 'stand', 'incline', 'callphone', 'telephone', 'smokeperson', 'otherperson', 'unsafehel', 'inapprodress', 'falldown', 'safehel', 'safetyvest']  # class names
